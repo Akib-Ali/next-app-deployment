@@ -5,7 +5,7 @@ import Link from "next/link";
 
 async function productslist() {
   try {
-      const responce = await axios.get("http://localhost:3000/api/products" )
+      const responce = await axios.get("https://next-app-deployment-sage.vercel.app/api/products" )
       return responce.data.result
 
 
