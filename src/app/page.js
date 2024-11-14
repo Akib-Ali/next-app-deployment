@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <div className={styles.page}>
      <h1>Next App try to deployment</h1>
+     <p>try to deployment</p>
     </div>
   );
 }
